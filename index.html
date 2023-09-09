@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1 data-testid="slackUseName">Divine Kode</h1>
+    </header>
+
+    <main>
+      <img
+        src="./image/profilePics.jpg"
+        alt="Divine Kode"
+        data-testid="slackDisplayImage"
+      />
+
+      <section>
+        <div class="detail-card">
+          <span>Day of Week</span>
+          <span id="day" data-testid="currentDayOfTheWeek"></span>
+        </div>
+
+        <div class="detail-card">
+          <span>UTC Time</span>
+          <span id="time" data-testid="currentUTCTime"></span>
+        </div>
+
+        <div class="detail-card">
+          <span>Track</span>
+          <span id="track" data-testid="myTrack">Frontend</span>
+        </div>
+
+        <a href="" data-testid="githubUrl">GitHub Repository</a>
+      </section>
+    </main>
+    <script src="scrip.js"></script>
+  </body>
+</html>
